@@ -4,7 +4,7 @@
 		module="task_manager_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20171203014403"
+		publication="20171203014709"
 	>
 		<description>
 		task_manager
@@ -32,5 +32,10 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick_2.12" rev="3.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick-hikaricp_2.12" rev="3.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.postgresql" name="postgresql" rev="42.1.4" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-core_2.12" rev="7.2.17" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
